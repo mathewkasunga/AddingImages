@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <title>Contact Us</title>
+</head>
+<body>
+  <div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <h1 class="blog">Nasir Jones Better Known as NAS</h1> <!-- first-level heading -->    
+
+
+    <form name="contactForm" method="POST" action="mailto:mathewkasunga@hotmail.com">
+  <fieldset>
+    <legend>Contact Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+    <br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+
+    <br>
+
+    <label>Interests:</label>
+    <input type="checkbox" id="programming" name="interests[]" value="programming">
+    <label for="programming">Programming</label>
+    <input type="checkbox" id="design" name="interests[]" value="design">
+    <label for="design">Design</label>
+    <input type="checkbox" id="gaming" name="interests[]" value="gaming">
+    <label for="gaming">Gaming</label>
+
+    <br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="other">Other</option>
+    </select>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </fieldset>
+</form> 
+
+  <footer>
+    <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="https://www.dallascollege.edu/">Dallas College Website</a></li>
+	    <li><a href="mailto:webmaster@myblog.com">Email Webmaster</a></li>
+        </ul>
+    </nav>
+  </footer>
+
+  </div>
+</body>
+</html>

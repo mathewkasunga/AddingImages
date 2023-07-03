@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccb1ef;
+  margin: 10px;
+  padding: 10px;
+  /* Add padding to the body element */
+  box-sizing: border-box;
+}
+
+.h1 {
+  background-color: #ccb1ef
+}
+
+p {
+  line-height: 2.0;
+  text-indent: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* mystyle.css */
+
+/* Apply box-sizing to include padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Styling for skills section */
+.skills {
+  background: #a5ffd9;
+  padding: 20px;
+  width: 500px;
+  line-height: 1.7em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+/* Styling for table */
+.table {
+  background: #a5ffd9;
+  border: 1px solid black;
+  padding: 30px;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Styling for images */
+img {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+  .thumbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+/* Styling for main div element */
+div {
+  width: 800px;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 40px;
+  background-color: #b4faac;
+  color: #333;
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+  figcaption {
+  text-alignment: center;
+}
+  .blog {
+  margin: 0px;
+  padding: 0px;
+  background: #ccb1ef;
+  text-alignment: center;
+}
+
+/* Styling for tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #080600;
+}
+
+th {
+  background-color: #ccb1ef;
+  font-weight: bold;
+}
+
+/* Styling for footer */
+.footer {
+  display: inline;
+  margin: 10;
+  padding: 10;
+}
